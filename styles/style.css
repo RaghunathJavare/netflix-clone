@@ -89,7 +89,7 @@ select {
 
 /* Email box */
 
-.centered__box {
+.about {
   position: relative;
   display: flex;
   justify-content: center;
@@ -203,6 +203,9 @@ header {
 @media (max-width: 450px) {
   .flex__container {
     padding: 1% 5%;
+  }
+  *{
+    text-align: left;
   }
 
 }
